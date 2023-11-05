@@ -1,0 +1,98 @@
+.body{
+    margin: 0;
+}
+.HeadBosrd {
+    background-image: url(suportFiles/headbackground.png);
+    background-position: 50% 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.HeadName {
+    font-family: 'Mali','Arial',sans-serif;
+    font-weight: bold;
+    font-size: clamp(1.8px, 9vw, 180px);
+    color: #FBE4D8;
+    padding-top: clamp(4px, 4vw, 60px);
+    padding-left: clamp(4px, 4vw, 60px);
+    padding-bottom: clamp(12px, 12vw, 60px);
+}
+.HeadName2 {
+    font-family: 'Mali','Arial',sans-serif;
+    font-weight: normal;
+    font-size: clamp(5.4px, 3vw, 54px);
+    color: #FBE4D8;
+    padding-left: clamp(4px, 4vw, 60px);
+}
+.leftHeadBord{
+    border-radius: 10px 0 0 10px;
+    width: clamp(60px, 30vw, 480px);
+    background-color: #FBE4D8;
+    padding-left: clamp(4px, 2vw, 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;    
+}
+.ImageHead{
+    width: clamp(4px, 4vw, 250px);
+    height: clamp(4px, 4vw, 250px);    
+}
+.Up {
+    padding-top: clamp(4px, 4vw, 60px);
+}
+.Down{
+    padding-bottom: clamp(4px, 4vw, 60px);
+}
+
+.SliderListItem {
+    padding-top: clamp(1px, 2vw, 25px);
+    margin-bottom: clamp(2px, 1vw, 30px);
+    display: flex;
+    flex-direction: row;
+    align-content: center; 
+}
+.SlideListItemText{
+    padding-left: clamp(2px, 1vw, 30px);
+    font-family: 'Mali','Arial',sans-serif;
+    font-weight: bold;
+    font-size: clamp(2px, 2vw, 30px);
+    color: rgb(61, 26, 45);
+}
+
+
+/* 
+.About {
+}
+.BlockName {
+}
+.AboutList {
+}
+.itemAboutLi {
+}
+.LiItemAboutInLi1 {
+}
+.Li2Item {
+}
+.TextSmall1 {
+}
+.textInListMenu {
+}
+.Artists {
+}
+.ArtistsList {
+}
+.ArtistImageAndLink {
+}
+.TextSmall2 {
+}
+.BottomArtist {
+}
+.KoncerMap {
+}
+.mapImage {
+} */
